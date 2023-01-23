@@ -1,1 +1,1 @@
-# parents-guide-stremio
+# stremio-parents-guide
