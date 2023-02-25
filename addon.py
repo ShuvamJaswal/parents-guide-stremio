@@ -108,6 +108,7 @@ def respond_with(data):
     resp = jsonify(data)
     resp.headers['Access-Control-Allow-Origin'] = '*'
     resp.headers['Access-Control-Allow-Headers'] = '*'
+    resp.headers['Cache-Control']='public, max-age=40000'
     return resp
 
 @app.route('/manifest.json')
