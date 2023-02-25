@@ -98,7 +98,8 @@ MANIFEST = {
     'types': ['movie', 'series'],
     'resources': [
         {'name': "meta", 'types': ["series","movie"], 'idPrefixes': ["gpg"]},
-        {'name': 'stream', 'types': ['movie', 'series']}
+        {'name': 'stream', 'types': ['movie', 'series'],
+        "idPrefixes": ["tt","gpg"]}
         ]
 }
 
